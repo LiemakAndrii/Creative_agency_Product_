@@ -729,3 +729,44 @@ a.hero__link::before {
   line-height: 24px; /* 171.429% */
   letter-spacing: 0.2px;
 }
+
+/*+ Ten Promo */
+.promo {
+  margin-bottom: 100px;
+}
+
+.promo__wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  max-width: 968px;
+  margin: 0 auto;
+  border-radius: 32px;
+  background: #02897a;
+}
+
+.promo__description {
+  padding: 49px 0px 56px 51px;
+}
+
+.promo__title {
+  max-width: 510px;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 151.4%; /* 48.448px */
+  margin-bottom: 46px;
+}
+
+.promo-btn {
+  border-radius: 8px;
+  background: #fff;
+  color: var(--color-primary);
+  font-size: 20px;
+  font-weight: 600;
+  display: inline-flex;
+  padding: 10px 34px;
+  justify-content: center;
+  align-items: center;
+}

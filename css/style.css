@@ -141,7 +141,7 @@ a.hero__link {
 }
 
 a.hero__link::before {
-  content: ""; /* Добавляем пустое содержимое для псевдоэлемента */
+  content: ""; /* Добавляем пустое содержимое для псевдо элемента */
   position: absolute; /* Позиционируем псевдоэлемент */
   top: 50%; /* Располагаем его по вертикали в центре */
   left: -28px; /* Располагаем его слева от ссылки */
@@ -149,7 +149,7 @@ a.hero__link::before {
   width: 20px; /* Задаем ширину треугольника */
   height: 18px; /* Задаем высоту треугольника */
   background-image: url(../img/triangle-play.svg); /* Задаем изображение треугольника */
-  background-size: contain; /* Масштабируем изображение по размеру псевдоэлемента */
+  background-size: contain; /* Масштабируем изображение по размеру псевдо элемента */
   background-repeat: no-repeat; /* Отключаем повторение изображения */
 }
 
@@ -257,10 +257,6 @@ a.hero__link::before {
   align-items: center;
 }
 
-/*! .management__wrapper {} */
-
-/*! .management__textgroup {} */
-
 .uppertitle {
   font-weight: 600;
 }
@@ -281,7 +277,6 @@ a.hero__link::before {
 .management__subtitle:not(:last-child) {
   margin-bottom: 28px;
 }
-/*! .management__img {} */
 
 /*+ Fourth section - SUPPORT */
 .support {
@@ -727,8 +722,6 @@ a.hero__link::before {
   justify-content: space-between;
   margin-bottom: 16px;
 }
-.footer__info-logo {
-}
 
 .footer__logo {
   margin-bottom: 18px;
@@ -738,9 +731,6 @@ a.hero__link::before {
   display: flex;
   justify-content: space-between;
   width: 152px;
-}
-
-.footer__info-description {
 }
 
 .info-description__title {
@@ -760,9 +750,6 @@ a.hero__link::before {
 .description__list-item:hover {
   text-decoration: underline;
   color: var(--color-primary);
-}
-
-.footer__info-subscribe {
 }
 
 .info-description__title.subscribe__title {

@@ -18,7 +18,7 @@
 
 body {
   font-family: "Poppins", "Montserrat", sans-serif;
-  color: #22343d;
+  color: var(--color-title_text);
   font-size: 16px;
   line-height: 26px;
 }
@@ -453,62 +453,6 @@ a.hero__link::before {
   max-width: 350px;
 }
 
-/* Слайдер */
-.slick-slider {
-}
-/* Слайдер запущен */
-.slick-slider.slick-initialized {
-}
-/* Слайдер с точками */
-.slick-slider.slick-dotted {
-}
-/* Ограничивающая оболочка */
-.slick-list {
-  overflow: hidden;
-}
-/* Лента слайдов */
-.slick-track {
-  display: flex;
-}
-/* Слайд */
-.slick-slide {
-}
-/* Слайд активный (показывается) */
-.slick-slide.slick-active {
-}
-/* Слайд основной */
-.slick-slide.slick-current {
-}
-/* Слайд по центру */
-.slick-slide.slick-center {
-}
-/* Клонированный слайд */
-.slick-slide.slick-cloned {
-}
-/* Стрелка */
-.slick-arrow {
-}
-/* Стрелка влево */
-.slick-arrow.slick-prev {
-}
-/* Стрелка вправо */
-.slick-arrow.slick-next {
-}
-/* Стрелка не активная */
-.slick-arrow.slick-disabled {
-}
-/* Точки (булиты) */
-.slick-dots {
-}
-.slick-dots li {
-}
-/* Активная точка */
-.slick-dots li.slick-active {
-}
-/* Элемент точки */
-.slick-dots li button {
-}
-
 /*++ Стили нашего (конкретного) слайдера */
 .slider {
   position: relative;
@@ -769,4 +713,102 @@ a.hero__link::before {
   padding: 10px 34px;
   justify-content: center;
   align-items: center;
+}
+
+/*+ Footer */
+.footer__wrapper {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.footer__info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.footer__info-logo {
+}
+
+.footer__logo {
+  margin-bottom: 18px;
+}
+
+.footer__social-media-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 152px;
+}
+
+.footer__info-description {
+}
+
+.info-description__title {
+  color: var(--color-title_text);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
+  margin-bottom: 8px;
+}
+
+.description__list-item {
+  color: var(--color-title_text);
+  font-size: 16px;
+  line-height: 35px; /* 218.75% */
+}
+
+.description__list-item:hover {
+  text-decoration: underline;
+  color: var(--color-primary);
+}
+
+.footer__info-subscribe {
+}
+
+.info-description__title.subscribe__title {
+  width: 280px;
+  margin-bottom: 30px;
+}
+
+.phone-form {
+  width: 325px;
+  border-radius: 4px;
+  border: 1px solid #bcd0e5;
+  background: #fff;
+  margin-bottom: 25px;
+  padding: 10px 12px;
+}
+
+.phone-input {
+  gap: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.phone-form__input {
+  color: var(--color-primary);
+  font-size: 16px;
+  line-height: 28px; /* 175% */
+}
+
+.phone-form__input::placeholder {
+  color: var(--color-primary);
+}
+
+.footer__btn {
+  border-radius: 4px;
+  background: var(--color-primary);
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 8px 15px;
+}
+
+.footer__copyright {
+  text-align: center;
+  color: var(--color-title_text);
+  font-size: 16px;
+  line-height: 30px; /* 187.5% */
+  margin-bottom: 40px;
 }
